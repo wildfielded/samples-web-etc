@@ -12,9 +12,9 @@ wrappers is worthy: it will make it difficult to work with the code. Applying
 all properties to one wrapper may not be the best solution. Try to keep a
 balance.
 3. Use semantic tags smartly.
-4. Grab social media icons from the web and insert them using a suitable HTML
-elements. Arrange the content as in the layout. You don't need to push the
-`footer` to the bottom of the page.
+4. Grab social media icons and any fillable images from the web and insert them
+using a suitable HTML elements. Arrange the content as in the layout. You don't
+need to push the `footer` to the bottom of the page.
 5. Bonus: lay out the `footer` so that it is pressed to the bottom of the page
 :wink:
 6. Make the entire layout responsive using `breakpoints`. Elements should wrap
