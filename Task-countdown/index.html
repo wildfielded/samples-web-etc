@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Countdown task</title>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <META name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="countdown.css">
+</head>
+<body>
+    <h1>Countdown Clock</h1>
+    <section>
+        <div class="countdown-number">
+            <p id="field-min" class="countdown-time"></p>
+            <p><button id="plus-min">&#9650;</button><button id="minus-min">&#9660;</button></p>
+            <p class="countdown-text">Minutes</p>
+        </div>
+        <div class="countdown-number">
+            <p id="field-sec" class="countdown-time"></p>
+            <p><button id="plus-sec">&#9650;</button><button id="minus-sec">&#9660;</button></p>
+            <p class="countdown-text">Seconds</p>
+        </div>
+    </section>
+    <div>
+        <button id="but-start">&#9658;&nbsp;Start Countdown</button>
+        <button id="but-pause"><b>&#8741;</b>&nbsp;Pause Countdown</button>
+        <button id="but-resume">&#9658;&nbsp;Resume Countdown</button>
+        <button id="but-stop">&#9632;&#9658;&nbsp;Stop and/or Reset Countdown</button>
+    </div>
+    <div><h1 id="field-msg" class="message"></h1></div>
+    <script src="myjquery.js"></script>
+    <script src="countdown.js"></script>
+</body>
+</html>
