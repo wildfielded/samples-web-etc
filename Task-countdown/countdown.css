@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(35, 110, 215);
+    font-family: "Arial", sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+}
+
+button {
+    background-color: white;
+    border: 2px solid rgb(65, 44, 132);
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 5px 5px;
+}
+
+section {
+    color: #ffffff;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.countdown-number {
+    background-color: rgb(6, 72, 215);
+    border-radius: 3px;
+    display: inline-block;
+    padding: 10px;
+}
+
+.countdown-time {
+    background-color: rgb(5, 44, 132);
+    border-radius: 3px;
+    display: inline-block;
+    padding: 15px;
+}
+
+.countdown-text {
+    display: block;
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+.message {
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 5px;
+}
